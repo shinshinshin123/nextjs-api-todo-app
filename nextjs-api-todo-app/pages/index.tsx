@@ -4,7 +4,7 @@ export default function Todotop() {
   return (
     <div>
       <p>todo一覧ページ</p>
-      <Link href="/todos">
+      <Link href="/">
       </Link>
     </div>
   )
