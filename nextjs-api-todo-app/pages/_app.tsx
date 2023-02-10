@@ -10,6 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <div>
         共通のTodoヘッダー
       </div>
+      <div>ログイン</div>
       <Component {...pageProps} />
     </>
   )
