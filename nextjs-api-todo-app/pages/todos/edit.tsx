@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
-function Create() {
+function Edit() {
     return (
         <>
-            <p>Todo作成ページ</p>
+            <p>Todo編集ページ</p>
             <Link href="/">
                 戻る
             </Link>
@@ -13,4 +13,4 @@ function Create() {
     )
 }
 
-export default Create;
+export default Edit;

@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
-function Mypage() {
+function Show() {
     return (
         <>
-            <p>マイページ</p>
+            <p>Todo詳細ページ</p>
             <Link href="/">
                 戻る
             </Link>
@@ -11,4 +11,4 @@ function Mypage() {
     )
 }
 
-export default Mypage;
+export default Show;
